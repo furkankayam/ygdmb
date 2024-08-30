@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  body {
+    @apply m-0 p-0 box-border font-Poppins bg-[#E3EDF7] dark:bg-[#31344B]
+  }
+
+}
+
+@layer components {
+
+  .loginFormLite {
+    border-radius: 21px;
+    background: #E3EDF7;
+    box-shadow: 14px 14px 29px #c3ccd4,
+      -14px -14px 29px #ffffff
+  }
+
+  .loginFormDark {
+    border-radius: 21px;
+    background: #31344B;
+    box-shadow: 14px 14px 29px #2a2d41,
+      -14px -14px 29px #383b56;
+  }
+
+  .stateLite {
+    border-radius: 11px;
+    background: #E3EDF7;
+    box-shadow: 5px 5px 10px #a6adb4,
+      -5px -5px 10px #ffffff;
+  }
+
+  .stateDark {
+    border-radius: 11px;
+    background: #31344B;
+    box-shadow: 5px 5px 10px #242637,
+      -5px -5px 10px #3e425f;
+  }
+
+}
